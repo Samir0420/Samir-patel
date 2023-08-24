@@ -349,12 +349,13 @@ svg {
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
-  margin-top: -80px;
+  margin-top: -60px;
   margin-left: -30px;
 }
 
 .about__data{
   text-align: center;
+  translate: 25px;
 }
 
 .about__description{
@@ -364,6 +365,7 @@ svg {
 .about__image{
   justify-self: center;
   scale: 70%;
+  translate: 30px;
 }
 
 #resume{
@@ -431,7 +433,7 @@ body{
 .education__container{
   width: 100%;
   padding: 35px 2%;
-  translate: 40px;
+  translate: 20px;
 }
 
 .education__container{
