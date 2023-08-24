@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============--> <!-- Favicon is for icons-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============--> <!-- Remixicons is for icons-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css"> <!-- This links css file-->
+
+      <title>Samir Patel Website Portfolio</title> <!-- Change the webpage title-->
+   </head>
+
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               Samir <span>Patel</span> <!--Include name at the header-->
+            </a>
+
+            <!-- In a div tag, have all the different headerlinks -->
+            <div class="nav__menu" id="nav-menu">
+
+               <!-- An unordered list will contain all the navigation links in a list -->
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <!-- href="#" means hyperlink to the top of the page -->
+                     <a href="#home" class="nav__link active-link">Home</a> <!-- Home -->
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About</a> <!-- About -->
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#experience" class="nav__link">Experience</a> <!-- Experience -->
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a> <!-- Projects -->
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact</a> <!-- Contact -->
+                  </li>
+               </ul>
+
+               <!-- Close Button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i> <!-- Import a close icon from Remix Icons-->
+               </div>
+            </div>
+
+            <!-- Toggle Button-->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i> <!-- Import a toggle icon from Remix Icons-->
+            </div>
+
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+                     <h3 class="home__subtitle">
+                        Hello, <span>I'm</span> <!-- Have a h3 for the following on the home page-->
+                     </h3>
+
+                     <h1 class="home__title">Samir Patel</h1> <!-- Have a h1 for name on home page-->
+
+                     <h3 class="home__education">Computer Science Student</h3> <!-- Have a h3 on my title-->
+
+                     <p class="home__description"> <!-- Create a p tag for a description about myself-->
+                        Passionate software developer driven to explore 
+                        the limitless possibilities of technology. Innovating
+                        solutions one line of code at a time.
+                     </p>
+
+                     <a href="#contact" class="button">Contact Me</a> <!-- Have a button for contact-->
+                  </div>
+
+                  <div class="home__social">
+
+                     <!-- Add my github social link connected to my icon-->
+                     <a href="https://github.com/Samir0420" target="_blank" class="home__social-link">
+                        <i class="ri-github-fill"></i>
+                     </a>
+
+                     <!-- Add my linkedin social link connected to my icon-->
+                     <a href="https://www.linkedin.com/in/samir-patel-094339244/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+
+                     <!-- Add my instagram social link connected to my icon-->
+                     <a href="https://www.instagram.com/_samir.ptl_/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- Display Image Below-->
+               <div class="home__image">
+                  <img src="assets/img/S Logo.png" alt="">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h3 class="section__subtitle"> <!-- Create a h3 for My Into-->
+                     My <span>Intro</span>
+                  </h3>
+
+                  <h2 class="section__title"> <!-- Create a h2 for About Me-->
+                     About Me
+                  </h2>
+
+                  <p class="about__description"> <!-- Add a p tag with a description-->
+                     As an enthusiastic student of computer science, 
+                     I find joy in the ever-evolving world of technology, 
+                     constantly pushing myself to learn and grow, 
+                     driven by a burning passion to innovate and make a 
+                     positive impact through software development.
+                  </p>
+
+                  <a href="#contact" class="button">Contact Me</a> <!-- Make the Contact Me button -->
+                  <a href="Samir_Patel_Resume.pdf" class="button" id="resume" download>Resume</a> <!-- Make the Contact Me button -->
+               </div>
+
+               <div class="about__image"> <!-- Change to Samir Image-->
+                  <img src="assets/img/sam.png" alt="">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SKILLS ====================-->
+         <section class="skills section">
+            <div class="skills__container container grid">
+               <div class="skills__data">
+                  <h3 class="section__subtitle">
+                     Favorite <span>Skills</span>
+                  </h3>
+
+                  <h2 class="section__title">
+                     My Skills
+                  </h2>
+
+                  <p class="skills__description">
+                     See fully what skills I have and perform,
+                     to develop the projects for you.
+                  </p>
+
+                  <a href="#projects" class="button">See Projects</a>
+               </div>
+
+               <div class="skills__content">
+                  <ol class="skills__group">
+                     <li class="skills__item">Python</li>
+                     <li class="skills__item">Java</li>
+                     <li class="skills__item">C</li>
+                  </ol>
+
+                  <ol class="skills__group" start="4">
+                     <li class="skills__item">JavaScript</li>
+                     <li class="skills__item">HTML & CSS</li>
+                     <li class="skills__item">SQL</li>
+                  </ol>
+               </div>
+
+            </div>
+         </section>
+
+         <!--==================== EDUCATION & EXPERIENCE ====================-->
+         <section class="experience section" id="experience">
+            <div class="education__container">
+               <main class="row">
+                  <!-- EDUCATION SECTION STARTS-->
+   
+                  <section class="col">
+   
+                     <header class="title">
+                        <h2>
+                           Educ<span>ation</span>
+                        </h2>
+                     </header>
+         
+                     <div class="contents">
+         
+                        <div class="box">
+                           <h4>Sept 2018 - Jun 2022</h4>
+                           <h3>High School Degree</h3>
+                           <p>
+                              <ul class="points">
+                                 <li>• Attended Castlebrooke Secondary School</li>
+   
+                                 <li>• Graduated with an average of 96%</li>
+   
+                                 <li>• Member of the VEX Robotics Team for 4+ years</li>
+                              </ul>  
+                           </p>
+                        </div>
+         
+                        <div class="box">
+                           <h4>Sept 2022 - Present</h4>
+                           <h3>Bachelor's Degree</h3>
+                           <p>
+                              <ul class="points">
+                                 <li>• Currently attending Carleton University for Computer Science</li>
+   
+                                 <li>• Pursing AI/Machine learning stream</li>
+   
+                                 <li>• Earned a CGPA of 3.8 in my first year</li>
+                              </ul>
+                           </p>
+                        </div>
+         
+                     </div>
+                  </section>
+   
+                  <!-- EDUCATION SECTION ENDS-->
+   
+                  <!-- EXPERIENCE SECTION STARTS-->
+                  <section class="col">
+   
+                     <header class="title">
+                        <h2>
+                           Exper<span>ience</span>
+                        </h2>
+                     </header>
+   
+                     <div class="contents">
+   
+                        <div class="box">
+                           <h4>Jun 2022 - Present</h4>
+                           <h3>STEM Unites | Co-Founder</h3>
+                           <p>
+                              <ul class="points">
+                                 <li>• A co-founder for the organization, STEM Unites</li>
+   
+                                 <li>• A youth-led organization with the mission to provide resources, opportunities, and information about the fields of STEM to those that are interested</li>
+   
+                                 <li>• Working with an executive team to deliver informational posts on social media and host engaging events for general members</li>
+                              </ul> 
+                           </p>
+                        </div>
+   
+                        <div class="box">
+                           <h4>Feb 2023 - May 2023</h4>
+                           <h3>Research & Website Design Internship</h3>
+                           <p>
+                              <ul class="points">
+                                 <li>• Collaborated with the CEO of EduTutor to create a Website Specification document for the upcoming project</li>
+   
+                                 <li>• Outlined objecttives, requiements, and design guidelines to guide website development</li>
+   
+                                 <li>• Expanded skills in web development, project management and communication</li>
+                              </ul>
+                           </p>
+                        </div>
+   
+                        <div class="box">
+                           <h4>Oct 2018 - Jun 2020</h4>
+                           <h3>VEX Robotics Team | Coding Instructor</h3>
+                           <p>
+                              <ul class="points">
+                                 <li>• Worked as a coding instrcutor for the highschool VEX Robotics Team</li>
+   
+                                 <li>• Teaching those that are interested in becoming a programmer how to code in the specific languages required to program the robot</li>
+   
+                                 <li>• Taking time after school to prepare lessons for new coders of the team</li>
+                              </ul>
+                           </p>
+                        </div>
+   
+                     </div>
+                  </section>
+                  <!-- EXPERIENCE SECTION ENDS-->
+   
+               </main>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+               My <span>Jobs</span>
+            </h3>
+
+            <h2 class="section__title">
+               Recent Projects
+            </h2>
+
+            <div class="projects__container container grid">
+
+               <article class="projects__card">
+                  <img src="assets/img/Fruit Ninja Project Cover.jpeg" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">Fruit Ninja Replica</h2>
+
+                     <a href="https://github.com/Samir0420/Fruit-Ninja-Game" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/Pong Project Cover.png" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">Pong Remake</h2>
+
+                     <a href="https://github.com/Samir0420/Retro-Pong-Remake" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/jokebox.png" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">JokeBox Chrome Extension</h2>
+
+                     <a href="https://github.com/Samir0420/JokeBox-Chrome-Extension" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/MoneyMorph.png" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">MoneyMorph</h2>
+
+                     <a href="https://github.com/Samir0420/MoneyMorph" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/Colorful Turtles Project Cover.png" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">Colorful Turtles</h2>
+
+                     <a href="https://github.com/Samir0420/Colorful-Turtles" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-6.jpg" alt="projects image" class="projects__img">
+
+                  <div class="projects__model">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">Modern website</h2>
+
+                     <a href="#" class="projects__button">
+                        View Project <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
+
+            </div>
+            
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h3 class="section__subtitle" id="contact">
+               Get In <span>Touch</span>
+            </h3>
+
+            <h2 class="section__title">
+               Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+               <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                     <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
+                     <input type="email" name="user_email" required placeholder="Enter your email" class="contact__input">
+                  </div>
+
+                  <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+
+                  <p class="contact_message" id="contact-message"></p>
+
+                  <button type="submit" class="button contact__button">
+                     Send Message
+                  </button>
+               </form>
+            </div>
+            
+         </section>
+      
+
+         <!--==================== FOOTER ====================-->
+         <footer class="footer">
+            <div class="footer__container container grid">
+               <div>
+                  <h1 class="footer__title">
+                     Samir <span>Patel</span>
+                  </h1>
+
+                  <h2 class="footer__education">
+                     Computer Science Student
+                  </h2>
+               </div>
+
+               <div class="footer__social">
+                  <a href="https://github.com/Samir0420" target="_blank" class="footer__social-link">
+                     <i class="ri-github-fill"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/samir-patel-094339244/" target="_blank" class="footer__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/_samir.ptl_/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+               </div>
+
+               <span class="footer__copy">
+                  &#169; Copyright SamirPatel. All rights reserved
+               </span>
+            </div>
+         </footer>
+      
+         <!--========== SCROLL UP ==========-->
+         <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+         </a>
+      
+      </main>
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
